@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.chnulabs.students.app-mergeDebugResources-4:/layout/list_item_user.xml",
+        "source": "com.chnulabs.students.app-main-7:/layout/list_item_user.xml"
+    },
+    {
+        "merged": "com.chnulabs.students.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.chnulabs.students.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.chnulabs.students.app-mergeDebugResources-4:/layout/activity_add_user.xml",
+        "source": "com.chnulabs.students.app-main-7:/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "com.chnulabs.students.app-mergeDebugResources-4:/layout/activity_user_detail.xml",
+        "source": "com.chnulabs.students.app-main-7:/layout/activity_user_detail.xml"
+    }
+]

@@ -1,0 +1,4 @@
+#Tue Aug 01 12:35:55 EEST 2023
+base.0=C\:\\Projects\\test_task_CHI\\CHI_test\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

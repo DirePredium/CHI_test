@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Users</string>
+
+    <string name="faculty_txt">Факультет:</string>
+    <string name="grp_number_txt">Номер групи:</string>
+    <string name="title_activity_user_detail">Details of user</string>
+
+</resources>

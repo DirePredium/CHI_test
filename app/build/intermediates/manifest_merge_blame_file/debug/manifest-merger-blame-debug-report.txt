@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chnulabs.students"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:6:5-34:19
+12        android:allowBackup="true"
+12-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Epus\.gradle\caches\transforms-3\1c6bf066d86cb24cdbec24ff431f26f8\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Users" >
+20-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:12:9-43
+21        <activity
+21-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:13:9-20:20
+22            android:name="com.chnulabs.students.UserDetailsActivity"
+22-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:14:13-48
+23            android:exported="false"
+23-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:15:13-37
+24            android:label="@string/title_activity_user_detail" >
+24-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:16:13-63
+25            <meta-data
+25-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:17:13-19:36
+26                android:name="android.app.lib_name"
+26-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:18:17-52
+27                android:value="" />
+27-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:19:17-33
+28        </activity>
+29        <activity
+29-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:21:9-24:39
+30            android:name="com.chnulabs.students.AddUserActivity"
+30-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:22:13-44
+31            android:exported="false"
+31-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:24:13-37
+32            android:label="Add User" />
+32-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:25:9-33:20
+34            android:name="com.chnulabs.students.MainActivity"
+34-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:26:13-41
+35            android:exported="true" >
+35-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:27:13-36
+36            <intent-filter>
+36-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Projects\test_task_CHI\CHI_test\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <uses-library
+43-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.window.extensions"
+44-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+46        <uses-library
+46-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+47            android:name="androidx.window.sidecar"
+47-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+48            android:required="false" />
+48-->[androidx.window:window:1.0.0] C:\Users\Epus\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+49    </application>
+50
+51</manifest>
